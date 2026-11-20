@@ -139,4 +139,3 @@ process.on('uncaughtException', error => {
 process.on('SIGINT', () => { monitor.stop(); client.destroy(); process.exit(0); });
 process.on('SIGTERM', () => { monitor.stop(); client.destroy(); process.exit(0); });
 
-bootstrap();
